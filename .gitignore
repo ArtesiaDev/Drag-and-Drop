@@ -148,3 +148,6 @@ sysinfo.txt
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# macOS system files
+.DS_Store
