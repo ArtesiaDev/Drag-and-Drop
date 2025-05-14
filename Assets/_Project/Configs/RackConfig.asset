@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b415b30e74c4910b23b4526aa839acd, type: 3}
+  m_Name: RackConfig
+  m_EditorClassIdentifier: 
+  <SessionTime>k__BackingField: 60
+  <StartMoveDuration>k__BackingField: 5
+  <StartEndGameLayoutAlfa>k__BackingField: 0.4
+  <FinishEndGameLayoutAlfa>k__BackingField: 0.9
+  <Raw1>k__BackingField:
+  - <StartPosition>k__BackingField:
+      <Row>k__BackingField: 0
+      <Column>k__BackingField: 0
+    <MovePosition>k__BackingField:
+      <Row>k__BackingField: 1
+      <Column>k__BackingField: 0
+  - <StartPosition>k__BackingField:
+      <Row>k__BackingField: 0
+      <Column>k__BackingField: 1
+    <MovePosition>k__BackingField:
+      <Row>k__BackingField: 2
+      <Column>k__BackingField: 1
+  - <StartPosition>k__BackingField:
+      <Row>k__BackingField: 0
+      <Column>k__BackingField: 2
+    <MovePosition>k__BackingField:
+      <Row>k__BackingField: 0
+      <Column>k__BackingField: 2
+  - <StartPosition>k__BackingField:
+      <Row>k__BackingField: 0
+      <Column>k__BackingField: 3
+    <MovePosition>k__BackingField:
+      <Row>k__BackingField: 2
+      <Column>k__BackingField: 3
+  <Raw2>k__BackingField:
+  - <StartPosition>k__BackingField:
+      <Row>k__BackingField: 1
+      <Column>k__BackingField: 0
+    <MovePosition>k__BackingField:
+      <Row>k__BackingField: 0
+      <Column>k__BackingField: 0
+  - <StartPosition>k__BackingField:
+      <Row>k__BackingField: 1
+      <Column>k__BackingField: 1
+    <MovePosition>k__BackingField:
+      <Row>k__BackingField: 2
+      <Column>k__BackingField: 0
+  - <StartPosition>k__BackingField:
+      <Row>k__BackingField: 1
+      <Column>k__BackingField: 2
+    <MovePosition>k__BackingField:
+      <Row>k__BackingField: 1
+      <Column>k__BackingField: 2
+  - <StartPosition>k__BackingField:
+      <Row>k__BackingField: 1
+      <Column>k__BackingField: 3
+    <MovePosition>k__BackingField:
+      <Row>k__BackingField: 1
+      <Column>k__BackingField: 3
+  <Raw3>k__BackingField:
+  - <StartPosition>k__BackingField:
+      <Row>k__BackingField: 2
+      <Column>k__BackingField: 0
+    <MovePosition>k__BackingField:
+      <Row>k__BackingField: 0
+      <Column>k__BackingField: 1
+  - <StartPosition>k__BackingField:
+      <Row>k__BackingField: 2
+      <Column>k__BackingField: 1
+    <MovePosition>k__BackingField:
+      <Row>k__BackingField: 1
+      <Column>k__BackingField: 1
+  - <StartPosition>k__BackingField:
+      <Row>k__BackingField: 2
+      <Column>k__BackingField: 2
+    <MovePosition>k__BackingField:
+      <Row>k__BackingField: 2
+      <Column>k__BackingField: 2
+  - <StartPosition>k__BackingField:
+      <Row>k__BackingField: 2
+      <Column>k__BackingField: 3
+    <MovePosition>k__BackingField:
+      <Row>k__BackingField: 0
+      <Column>k__BackingField: 2

@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 557395434977832050}
   - component: {fileID: 2354037995565916970}
   - component: {fileID: 8675965069611609761}
-  - component: {fileID: 6943511676517875169}
+  - component: {fileID: 1445178868236384015}
   m_Layer: 5
-  m_Name: Block
+  m_Name: Pyramid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68,7 +68,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e1b362e5e321d427f8f91cbc95e578b0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e51e85519c34c429fa8fe386ab91e91c, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -104,7 +104,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 150, y: 150}
   m_EdgeRadius: 0
---- !u!114 &6943511676517875169
+--- !u!114 &1445178868236384015
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117,3 +117,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _collider: {fileID: 8675965069611609761}
+  <StartPosition>k__BackingField:
+    <Row>k__BackingField: 2
+    <Column>k__BackingField: 0
