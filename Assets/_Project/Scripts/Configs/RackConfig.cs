@@ -9,8 +9,10 @@ namespace _Project.Scripts.Configs
     {
         [field: SerializeField] public int SessionTime { get; private set; }
         [field: SerializeField] public int StartMoveDuration { get; private set; }
-        [field: SerializeField, Range(0,1)] public float StartEndGameLayoutAlfa { get; private set; }
-        [field: SerializeField, Range(0,1)] public float FinishEndGameLayoutAlfa { get; private set; }
+        [field: SerializeField] public int MoveElementDuration { get; private set; }
+        [field: SerializeField,Range(0, 1)] public float PutElementDuration { get; private set; }
+        [field: SerializeField, Range(0, 1)] public float StartEndGameLayoutAlfa { get; private set; }
+        [field: SerializeField, Range(0, 1)] public float FinishEndGameLayoutAlfa { get; private set; }
         [field: SerializeField] public List<ShelfElement> Raw1 { get; private set; }
         [field: SerializeField] public List<ShelfElement> Raw2 { get; private set; }
         [field: SerializeField] public List<ShelfElement> Raw3 { get; private set; }

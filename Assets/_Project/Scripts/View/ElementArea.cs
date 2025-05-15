@@ -6,6 +6,6 @@ namespace _Project.Scripts.View
     [RequireComponent(typeof(BoxCollider2D))]
     public class ElementArea : MonoBehaviour
     {
-        [field: SerializeField] public Coordinates StartPosition { get; private set; }
+        [field: SerializeField] public Coordinates Position { get; private set; }
     }
 }

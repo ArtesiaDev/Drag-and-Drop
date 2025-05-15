@@ -12,6 +12,8 @@ namespace _Project.Scripts.Core.Models
         {
             SessionTime = config.SessionTime;
             StartMoveDuration = config.StartMoveDuration;
+            MoveElementDuration = config.MoveElementDuration;
+            PutElementDuration = config.PutElementDuration;
             StartEndGameLayoutAlfa = config.StartEndGameLayoutAlfa;
             FinishEndGameLayoutAlfa = config.FinishEndGameLayoutAlfa;
             CancellationToken = new CancellationTokenSource();
@@ -20,19 +22,22 @@ namespace _Project.Scripts.Core.Models
 
         public int SessionTime { get; private set; }
         public int StartMoveDuration { get; private set; }
+        public int MoveElementDuration { get; private set; }
+        public float PutElementDuration { get; private set; }
         public float StartEndGameLayoutAlfa { get; private set; }
         public float FinishEndGameLayoutAlfa { get; private set; }
         public ShelfElementModel[,] ElementModels { get; private set; }
         public ElementArea[,] ElementAreas { get; private set; }
         public List<ShelfElementView> ElementViews { get; private set; }
-        
         public CancellationTokenSource CancellationToken { get; private set; }
+        
+        public bool ElementsIMoved { get; set; }
 
         public void InitializeElementAreas(List<ElementArea> elementAreas)
         {
             ElementAreas = new ElementArea[3, 4];
             foreach (var area in elementAreas)
-                ElementAreas[area.StartPosition.Row, area.StartPosition.Column] = area;
+                ElementAreas[area.Position.Row, area.Position.Column] = area;
         }
         
         public void InitializeElementViews(List<ShelfElementView> elementViews) =>

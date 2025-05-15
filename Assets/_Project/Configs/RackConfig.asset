@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: RackConfig
   m_EditorClassIdentifier: 
   <SessionTime>k__BackingField: 60
-  <StartMoveDuration>k__BackingField: 5
+  <StartMoveDuration>k__BackingField: 1
+  <MoveElementDuration>k__BackingField: 1
   <StartEndGameLayoutAlfa>k__BackingField: 0.4
   <FinishEndGameLayoutAlfa>k__BackingField: 0.9
   <Raw1>k__BackingField:
@@ -34,7 +35,7 @@ MonoBehaviour:
       <Column>k__BackingField: 2
     <MovePosition>k__BackingField:
       <Row>k__BackingField: 0
-      <Column>k__BackingField: 2
+      <Column>k__BackingField: 3
   - <StartPosition>k__BackingField:
       <Row>k__BackingField: 0
       <Column>k__BackingField: 3

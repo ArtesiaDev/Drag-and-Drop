@@ -17,6 +17,8 @@ namespace _Project.Scripts.Installers
             Container.Bind<RackView>().FromInstance(_rackView).AsSingle();
             Container.BindInterfacesAndSelfTo<RackPresenter>().AsSingle();
             Container.Bind<RackModel>().AsSingle().WithArguments(_rackConfig);
+            Container.BindInterfacesTo<ShelfElementDragging>().AsSingle();
+            Container.Bind<ShelfElementPresenter>().AsSingle();
         }
     }
 }
