@@ -15,6 +15,7 @@ MonoBehaviour:
   <SessionTime>k__BackingField: 60
   <StartMoveDuration>k__BackingField: 1
   <MoveElementDuration>k__BackingField: 1
+  <PutElementDuration>k__BackingField: 0.1
   <StartEndGameLayoutAlfa>k__BackingField: 0.4
   <FinishEndGameLayoutAlfa>k__BackingField: 0.9
   <Raw1>k__BackingField:

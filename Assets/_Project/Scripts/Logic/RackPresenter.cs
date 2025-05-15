@@ -51,7 +51,7 @@ namespace _Project.Scripts.Logic
             for (var i = 0; i < _rackModel.SessionTime; i++)
             {
                 _view.DrawTimer(i);
-                if (!await WaitForSecond())
+                if (!await WaitForSeconds(1))
                     return;
             }
             GameOver();
@@ -59,7 +59,7 @@ namespace _Project.Scripts.Logic
 
         private async void MoveElements()
         {
-            if (!await WaitForSecond())
+            if (!await WaitForSeconds(0.5f))
                 return;
             
             foreach (var element in _rackModel.ElementViews)
@@ -84,11 +84,11 @@ namespace _Project.Scripts.Logic
             }
         }
 
-        private async UniTask<bool> WaitForSecond()
+        private async UniTask<bool> WaitForSeconds(float delay)
         {
             try
             {
-                await UniTask.WaitForSeconds(1, cancellationToken: _rackModel.CancellationToken.Token);
+                await UniTask.WaitForSeconds(delay, cancellationToken: _rackModel.CancellationToken.Token);
             }
             catch
             {
